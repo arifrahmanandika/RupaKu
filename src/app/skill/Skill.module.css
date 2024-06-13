@@ -1,6 +1,6 @@
 .imageContainer {
   position: relative;
-  height: 550px; /* Sesuaikan dengan tinggi gambar */
+  height: 150px; /* Sesuaikan dengan tinggi gambar */
 }
 
 .imageWrapper {
@@ -14,14 +14,17 @@
   0% {
     transform: translateY(0);
   }
-  25% {
-    transform: translateY(-100%);
+  20% {
+    transform: translateX(-100%);
   }
-  50% {
+  40% {
+    transform: translateY(100%);
+  }
+  60% {
     transform: translateX(100%);
   }
-  75% {
-    transform: translateY(100%);
+  80% {
+    transform: translateY(-100%);
   }
   100% {
     transform: translateX(0);
@@ -29,17 +32,17 @@
 }
 
 .image1 {
-  animation: rotateImages 8s linear infinite; /* Ubah durasi animasi sesuai kebutuhan */
+  animation: rotateImages 8s linear infinite;
 }
 
 .image2 {
-  animation: rotateImages 8s linear infinite 2s; /* Delay animasi untuk gambar ke-2 */
+  animation: rotateImages 8s linear infinite 2s;
 }
 
 .image3 {
-  animation: rotateImages 8s linear infinite 4s; /* Delay animasi untuk gambar ke-3 */
+  animation: rotateImages 8s linear infinite 4s;
 }
 
 .image4 {
-  animation: rotateImages 8s linear infinite 6s; /* Delay animasi untuk gambar ke-4 */
+  animation: rotateImages 8s linear infinite 6s;
 }
