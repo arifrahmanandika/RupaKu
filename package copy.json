@@ -1,0 +1,17 @@
+{
+  "name": {
+    "first-name": "arif",
+    "middle-name": "rahman",
+    "last-name": "andika"
+  },
+  "age": {
+    "date": "24",
+    "month": "july",
+    "year": "1995"
+  },
+  "address": {
+    "city": "metro",
+    "state": "lampung",
+    "country": "indonesia"
+  }
+}
