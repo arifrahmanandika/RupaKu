@@ -5,7 +5,11 @@ export default function Contact() {
   return (
     <div>
       <div className="flex flex-col gap-10">
-        <Link className="flex justify-items-center gap-2" href="/contact">
+        <Link
+          className="flex justify-items-center gap-2"
+          href="mailto:arifrahmanandika@gmail.com"
+          target="blank"
+        >
           <Image src="/contact/mail.svg" alt="mail" width={30} height={20} />
           <p className="font-bold hover:underline underline-offset-8">
             arifrahmanandika@gmail.com

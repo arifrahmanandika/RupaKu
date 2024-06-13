@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <div>
-      <code className="font-mono font-bold m-2 ">app/about/page.tsx</code>
+      <code className="font-mono font-bold m-2 ">app/about/response.json</code>
 
       <Image
         className="rounded-xl shadow-xl drop-shadow-2xl hover:shadow-2xl"
