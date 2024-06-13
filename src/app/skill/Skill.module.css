@@ -1,0 +1,45 @@
+.imageContainer {
+  position: relative;
+  height: 550px; /* Sesuaikan dengan tinggi gambar */
+}
+
+.imageWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease; /* Transisi perubahan rotasi */
+}
+
+@keyframes rotateImages {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  75% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.image1 {
+  animation: rotateImages 8s linear infinite; /* Ubah durasi animasi sesuai kebutuhan */
+}
+
+.image2 {
+  animation: rotateImages 8s linear infinite 2s; /* Delay animasi untuk gambar ke-2 */
+}
+
+.image3 {
+  animation: rotateImages 8s linear infinite 4s; /* Delay animasi untuk gambar ke-3 */
+}
+
+.image4 {
+  animation: rotateImages 8s linear infinite 6s; /* Delay animasi untuk gambar ke-4 */
+}

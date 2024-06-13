@@ -50,6 +50,21 @@ export default function Contact() {
             @arifrahmanandika
           </p>
         </Link>
+        <Link
+          className="flex justify-items-center gap-2"
+          href="https://github.com/arifrahmanandika"
+          target="blank"
+        >
+          <Image
+            src="/contact/github.svg"
+            alt="github"
+            width={32}
+            height={20}
+          />
+          <p className="font-bold hover:underline underline-offset-8">
+            arifrahmanandika
+          </p>
+        </Link>
       </div>
     </div>
   );
